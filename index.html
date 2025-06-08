@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>🐏 XSah DAO - Community Governance</title>
-  <meta name="description" content="XSah DAO - A decentralized governance system for XSah Coin holders." />
+  <title>🐏 XSah DAO - Free Like A People</title>
+  <meta name="description" content="XSah DAO - Decentralized governance for the XSah community." />
   <style>
     body {
       margin: 0;
@@ -34,7 +34,7 @@
     }
     .logo {
       width: 120px;
-      margin-top: 20px;
+      margin: 20px auto;
     }
     .box {
       background: #fff;
@@ -42,6 +42,10 @@
       margin-top: 20px;
       border-radius: 10px;
       box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      text-align: left;
+    }
+    .box h2 {
+      margin-top: 0;
     }
     a.button {
       display: inline-block;
@@ -61,35 +65,77 @@
       font-size: 14px;
       color: #777;
     }
+    input[type="text"], textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    button {
+      padding: 10px 20px;
+      background: #007bff;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #0056b3;
+    }
+    label {
+      font-weight: bold;
+    }
   </style>
 </head>
 <body>
   <header>
-    <h1>🐏 XSah DAO - Free Like A People</h1>
+    <h1>🐏 XSah DAO – Free Like A People</h1>
   </header>
 
   <div class="content">
     <img src="logo.png" alt="XSah Logo" class="logo" />
-    
+
     <div class="box">
       <h2>What is XSah DAO?</h2>
-      <p>XSah DAO is a decentralized governance system for XSah Coin. Token holders can vote, suggest ideas, and shape the future of the XSah ecosystem.</p>
+      <p>XSah DAO is the decentralized governance system of XSah Coin. Inspired by the strength of the mountains and the will of a people, it empowers token holders to shape the project’s future.</p>
     </div>
 
     <div class="box">
-      <h2>Nasıl Çalışır?</h2>
-      <p>XSah Coin sahipleri oy kullanabilir, projelere yön verebilir ve topluluğun geleceğini birlikte belirleyebilir.</p>
-    </div>
-
-    <div class="box">
-      <h2>Join the Resistance</h2>
-      <p>Powered by the mountains, guided by the people. Connect your Phantom wallet on Solana and become part of the movement.</p>
+      <h2>🧠 How It Works</h2>
+      <ul>
+        <li>🗳 <strong>Vote:</strong> Participate in decisions with your XSah tokens.</li>
+        <li>💡 <strong>Propose:</strong> Suggest ideas for the community.</li>
+        <li>🧭 <strong>Decide:</strong> Govern together, the people's voice leads.</li>
+      </ul>
       <a class="button" href="https://realms.today/" target="_blank">Join XSah DAO</a>
+    </div>
+
+    <div class="box">
+      <h2>🗳 Community Proposal</h2>
+      <p>Submit an idea and cast your vote! This is a demo form to simulate DAO participation.</p>
+      <form>
+        <label for="proposal-title">Proposal Title:</label>
+        <input type="text" id="proposal-title" name="proposal-title" placeholder="e.g. Fund local education">
+
+        <label for="description">Description:</label>
+        <textarea id="description" name="description" rows="4" placeholder="Describe your proposal..."></textarea>
+
+        <label>Vote:</label><br>
+        <input type="radio" id="yes" name="vote" value="yes">
+        <label for="yes">✅ Yes</label><br>
+        <input type="radio" id="no" name="vote" value="no">
+        <label for="no">❌ No</label><br><br>
+
+        <button type="submit">Submit</button>
+      </form>
+      <p style="margin-top: 10px; font-size: 13px; color: #666;">⚠️ This is a visual simulation. On-chain voting is coming soon.</p>
     </div>
   </div>
 
   <footer>
-    © 2025 XSah Community • Built with strength, culture and resistance.
+    © 2025 XSah DAO • Built for culture, resistance and freedom.
   </footer>
 </body>
 </html>
